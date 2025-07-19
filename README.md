@@ -1,12 +1,12 @@
 # 🏦 ITI - Bank Network Project
 
-This repository contains the complete configuration and documentation of a simulated network infrastructure for the new branch of Bank.
+This repository contains the complete configuration and documentation of a simulated network infrastructure for a new branch of a bank.
 
 ---
 
 ## 🖼️ Network Topology
 
-![Project Topology]([ITI CCNA.png](https://github.com/AhmedKhaledElshahat/ITI-Bank-Network-Project/blob/master/ITI%20CCNA.png))
+![Project Topology](https://github.com/AhmedKhaledElshahat/ITI-Bank-Network-Project/blob/master/ITI%20CCNA.png)
 
 ---
 
@@ -61,7 +61,7 @@ This repository contains the complete configuration and documentation of a simul
 
 ## 📬 Contact
 
-**Prepared by:** Ahmed khaled
-**LinkedIn:** [www.linkedin.com/in/ahmed-khaled-37aa46236](https:www.linkedin.com/in/ahmed-khaled-37aa46236)
+**Prepared by:** Ahmed Khaled  
+**LinkedIn:** [www.linkedin.com/in/ahmed-khaled-37aa46236](https://www.linkedin.com/in/ahmed-khaled-37aa46236)
 
 Feel free to clone or fork this repository to explore or reuse parts of the network setup.

@@ -6,8 +6,7 @@ This repository contains the complete configuration and documentation of a simul
 
 ## 🖼️ Network Topology
 
-![Project Topology](<img width="1176" height="693" alt="ITI CCNA" src="https://github.com/user-attachments/assets/ee39c240-103b-4a93-9a74-6f078efc28c4" />
-)
+![Project Topology](ITI CCNA.png)
 
 ---
 

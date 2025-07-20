@@ -6,7 +6,7 @@ This repository contains the complete configuration and documentation of a simul
 
 ## 🖼️ Network Topology
 
-![Project Topology](https://github.com/AhmedKhaledElshahat/ITI-Bank-Network-Project/blob/master/ITI%20CCNA.png)
+![Project Topology](https://raw.githubusercontent.com/AhmedKhaledElshahat/ITI-Bank-Network-Project/master/ITI%20CCNA.png)
 
 
 ---

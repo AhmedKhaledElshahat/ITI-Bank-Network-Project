@@ -21,21 +21,42 @@ This repository contains the complete configuration and documentation of a simul
 
 ---
 
+# 🏗️ Network Infrastructure Project
+
 ## 🖥️ Network Structure
 
-- **Subnetting**: 172.16.10.0/24 divided into 8 subnets using /27 mask.
-- **VLANs**:
-  - VLAN 10 – Management (CEO)
-  - VLAN 20 – Marketing (Copyrighters)
-  - VLAN 30 – Accounting (Dialers)
-  - VLAN 100 – Native VLAN for trunk links
-- **Router-on-a-Stick**:
-  - Sub-interfaces configured on R1 to route between VLANs.
-- **Dynamic Routing**:
-  - OSPF is configured between R1, R2, and R3.
-- **Security**:
-  - SSHv2 enabled on R3 and S1-Office3.
-  - Port security enabled on all access ports.
+- 🧮 **Subnetting**  
+  The network `172.16.10.0/24` is divided into 8 subnets using a `/27` subnet mask for efficient IP allocation.
+
+- 🧾 **VLANs**  
+  - 🧑‍💼 `VLAN 10` – **Management** (CEO)  
+  - 💼 `VLAN 20` – **Marketing** (Copyrighters)  
+  - 💰 `VLAN 30` – **Accounting** (Dialers)  
+  - 🔗 `VLAN 100` – **Native VLAN** for trunk links
+
+- 🚦 **Router-on-a-Stick**  
+  Sub-interfaces on `R1` are configured to enable inter-VLAN routing between departments.
+
+- 🌐 **Dynamic Routing (OSPF)**  
+  Implemented between `R1`, `R2`, and `R3` for route exchange and scalability.
+
+- 🔐 **Security Features**  
+  - `SSHv2` enabled on `R3` and `S1-Office3` for secure remote access  
+  - **Port Security** enforced on all access ports to prevent unauthorized devices
+
+---
+
+## 🛠️ Services Configured
+
+- 📝 **Syslog Server**  
+  Centralized logging enabled to monitor and record real-time network events for diagnostics and auditing.
+
+- ⏰ **NTP Server**  
+  Time synchronization across all devices to ensure accurate logging and operations.
+
+- 📧 **Email Server**  
+  Deployed internally to support email communication and send automated alerts and notifications.
+
 
 ---
 
@@ -56,6 +77,9 @@ This repository contains the complete configuration and documentation of a simul
 - Routing protocol implementation (OSPF)
 - SSH configuration and switch security
 - Realistic documentation and topology planning
+-  Syslog Server
+-  NTP Server
+-  E-mail Server
 
 ---
 
